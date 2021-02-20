@@ -29,3 +29,8 @@ print(type(language))
 isTrue = True
 print(isTrue)
 print(type(isTrue))
+
+# Multiple assignment
+x,y = 20, 50
+print(x,y)
+x, y = y, x

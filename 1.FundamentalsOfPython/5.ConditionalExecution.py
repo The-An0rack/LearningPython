@@ -21,13 +21,16 @@ Conditional Statement(s):
 1. if
 2. if-else
 3. if-elif-else
+
+Ternary Operator: It simply allows to test a condition in a single line replacing the multiline if-else making the
+code compact.
 """
 
 # Indentation is important
 # It defines block
 
 x = 5
-y = 12
+
 if x < 10:
     print("Value of x is less than 10.")
 
@@ -60,3 +63,9 @@ if 0 < x:
     if x < 10:
         print("x is a positive single-digit number.")
 
+# Ternary Operator
+y = 22 if x > 3 else 5
+print(y)            # Gives 22
+
+y = 35 if x > 10 else 7
+print(y)            # Gives 7
