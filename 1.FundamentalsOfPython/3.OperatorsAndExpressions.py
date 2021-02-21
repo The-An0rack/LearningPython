@@ -48,3 +48,4 @@ Order of precedence of operators:
 
 print(7*5%3) #->35%3 ->2
 print(3*2**3) #3*8
+

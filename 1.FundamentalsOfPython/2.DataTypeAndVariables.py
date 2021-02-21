@@ -34,3 +34,4 @@ print(type(isTrue))
 x,y = 20, 50
 print(x,y)
 x, y = y, x
+print(x,y)

@@ -69,3 +69,9 @@ print(y)            # Gives 22
 
 y = 35 if x > 10 else 7
 print(y)            # Gives 7
+
+"""
+Difference between == and is
+The Equality operator (==) compares the values of both the operands and checks for value equality. 
+Whereas the ‘is’ operator checks whether both the operands refer to the same object or not.
+"""
